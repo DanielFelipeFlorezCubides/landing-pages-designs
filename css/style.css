@@ -1,7 +1,116 @@
 @import url(variables.css);
 
 *{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+    margin: 0; 
+    padding: 0; 
+    outline: 1px solid tomato;
+}
+*::before, *::after{box-sizing: border-box;}
+body{min-height: 100dvh;}
+input, button, textarea, select{font: inherit;}
+p{text-wrap: pretty;}
+h1, h2, h3, h4, h5, h6{text-wrap: balance;}
+img, video, svg{height: auto; max-width: 100%;}
+@media (prefers-reduced-motion: reduce){
+*, *::before, *::after{
+animation-duration: 0.01ms !important;
+animation-iteration-count: 1 !important;
+max-width: 100%;
+transition-duration: 0.01ms !important;
+scroll-behavior: auto !important;
+transition: none;
+}
+}
+
+.container{
+    width: 1440px;
+    height: 1272px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.textContainer{
+    left: 64px;
+    top: 137px;
+    width: 444px;
+    height: 473px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    h1{
+       font-family: "Avenir-Heavy";
+       font-size: 56px;
+       height: 231px;
+       line-height: 1.5;
+    }
+    p{
+        font-family: "Avenir-Roman";
+        font-size: 26px;
+        height: 144px;
+        line-height: 1.8;
+    }
+    button{
+        font-family: "Avenir-Roman";
+        font-size: 18px;
+        background-color: black;
+        color: white;
+        width: 157px;
+        height: 50px;
+        position: relative;
+        border-style: none;
+        border-radius: 10px;
+    }
+}
+
+.left{
+    width: 480px;
+    height: 480px;
+    left: 525px;
+    top: 65px;
+    position: absolute;
+}
+
+.right{
+    width: 480px;
+    height: 480px;
+    left: 968px;
+    top: 217px;
+    position: absolute;
+}
+
+.imgContainer{
+    left: 64px;
+    top: 769px;
+    position: absolute;
+    h2{
+        font-family: "Avenir-Heavy";
+        font-size: 40px;
+        color: grey;
+        opacity: 45%;
+    }
+}
+
+.imgContainer2{
+    left: 516px;
+    top: 769px;
+    position: absolute;
+    h2{
+        font-family: "Avenir-Heavy";
+        font-size: 40px;
+        color: grey;
+        opacity: 45%;
+    }
+}
+
+.imgContainer3{
+    left: 968px;
+    top: 769px;
+    position: absolute;
+    h2{
+        font-family: "Avenir-Heavy";
+        font-size: 40px;
+        color: grey;
+        opacity: 45%;
+    }
 }
