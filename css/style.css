@@ -1,7 +1,120 @@
 @import url(variables.css);
 
 *{
-    padding: 0;
     margin: 0;
-    box-sizing: border-box;
+    padding: 0;
+    /* outline: 1px solid tomato; */
+}
+
+*::before, *::after{box-sizing: border-box;}
+body{min-height: 100dvh;}
+input, button, textarea, select{font: inherit;}
+p{text-wrap: pretty;}
+h1, h2, h3, h4, h5, h6{text-wrap: balance;}
+img, video, svg{height: auto; max-width: 100%;}
+@media (prefers-reduced-motion: reduce){
+*, *::before, *::after{
+animation-duration: 0.01ms !important;
+animation-iteration-count: 1 !important;
+max-width: 100%;
+transition-duration: 0.01ms !important;
+scroll-behavior: auto !important;
+transition: none;
+}
+}
+
+.container{
+    width: 1440px;
+    height: 954px;
+    position: absolute;
+    margin: 0 auto;
+}
+
+.title{
+    width: 531px;
+    height: 208px;
+    left: 64px;
+    top: 64px;
+    position: absolute;
+    h1{
+        font-family: "Avenir-Heavy";
+        font-size: 88px;
+    }
+}
+.containerA{
+    width: 400px;
+    height: 549px;
+    left: 64px;
+    top: 290px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    h2{
+        font-family: "Avenir-Heavy";
+        font-size: 32px;
+        color: gray;
+        opacity: 45%;
+        position: relative;
+        top: 12px;
+    }
+    p{
+        font-family: "Avenir-Roman";
+        font-size: 24px;
+    }
+    img{
+        height: 355px;
+    }
+}
+
+.containerB{
+    width: 400px;
+    height: 549px;
+    left: 514px;
+    top: 290px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    h2{
+        font-family: "Avenir-Heavy";
+        font-size: 32px;
+        color: gray;
+        opacity: 45%;
+        position: relative;
+        top: 12px;
+    }
+    p{
+        font-family: "Avenir-Roman";
+        font-size: 24px;
+    }
+    img{
+        height: 355px;
+    }
+}
+
+.containerC{
+    width: 400px;
+    height: 549px;
+    left: 968px;
+    top: 290px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    h2{
+        font-family: "Avenir-Heavy";
+        font-size: 32px;
+        color: gray;
+        opacity: 45%;
+        position: relative;
+        top: 12px;
+    }
+    p{
+        font-family: "Avenir-Roman";
+        font-size: 24px;
+    }
+    img{
+        height: 355px;
+    }
 }
