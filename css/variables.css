@@ -1,8 +1,16 @@
 :root{
     --color-1: white;
+    --fuente-heavy: "avenir-heavy";
+    --fuente-roman: "avenir-roman";
 }
 
 @font-face {
-    font-family: "example";
-    src: url(../storage/font/example.ttf);
+    font-family: "avenir-heavy";
+    src: url(../storage/font/AvenirLTStd-Heavy.otf) format(truetype);
+}
+
+
+@font-face {
+    font-family: "avenir-roman";
+    src: url(../storage/font/AvenirLTStd-Roman.otf) format(truetype);
 }
