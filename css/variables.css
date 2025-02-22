@@ -1,8 +1,15 @@
 :root{
     --color-1: white;
+    --fuente-bold: "poppins-bold";
+    --fuente-regular: "poppins-regular";
 }
 
 @font-face {
-    font-family: "example";
-    src: url(../storage/font/example.ttf);
+    font-family: "poppins-bold";
+    src: url(../storage/font/Poppins-Bold.ttf) format(truetype);
+}
+
+@font-face {
+    font-family: "poppins-regular";
+    src: url(../storage/font/Poppins-Regular.ttf) format(truetype);
 }
