@@ -1,0 +1,21 @@
+:root{
+    --color-1: white;
+    --fuente-bold: "worksans-bold";
+    --fuente-medium: "worksans-medium";
+    --fuente-light: "worksans-light";
+}
+
+@font-face {
+    font-family: "worksans-bold";
+    src: url(../storage/font/WorkSans-Bold.ttf) format(truetype);
+}
+
+@font-face {
+    font-family: "worksans-medium";
+    src: url(../storage/font/WorkSans-Medium.ttf) format(truetype);
+}
+
+@font-face {
+    font-family: "worksans-light";
+    src: url(../storage/font/WorkSans-Light.ttf) format(truetype);
+}
