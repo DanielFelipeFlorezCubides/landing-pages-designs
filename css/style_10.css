@@ -1,0 +1,66 @@
+@import url(variables_10.css);
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 1440px;
+    height: 926px;
+    background-color: rgba(47, 47, 47, 1);
+}
+
+.container{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    gap: 53px;
+    width: 1244px;
+    height: 792px;
+    margin: 67px 64px 67px 132px;
+}
+
+.info{
+    width: 449px;
+    height: 582px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    position: relative;
+    top: 102px;
+}
+
+.info h1{
+    font-family: var(--fuente-bold);
+    font-size: 72px;
+}
+
+.info p{
+    font-family: var(--fuente-regular);
+    font-size: 24px;
+    color: white;
+}
+
+.info a{
+    padding: 24px 48px 24px 48px;
+    background-color: white;
+    border-radius: 40px;
+    display: inline-block;
+    width: fit-content;
+    font-family: var(--fuente-regular);
+    font-size: 24px;
+}
+
+.span1{
+    color: rgba(254, 195, 199, 1);
+}
+
+.span2{
+    color: rgba(154, 215, 243, 1);
+}
+
+.span3{
+    color: rgba(107, 223, 218, 1);
+}
