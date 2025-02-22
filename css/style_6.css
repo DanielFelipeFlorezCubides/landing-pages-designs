@@ -1,0 +1,137 @@
+@import url(variables.css);
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* outline: 1px solid tomato; */
+}
+
+*::before, *::after{box-sizing: border-box;}
+body{min-height: 100dvh;}
+input, button, textarea, select{font: inherit;}
+p{text-wrap: pretty;}
+h1, h2, h3, h4, h5, h6{text-wrap: balance;}
+img, video, svg{height: auto; max-width: 100%;}
+@media (prefers-reduced-motion: reduce){
+*, *::before, *::after{
+animation-duration: 0.01ms !important;
+animation-iteration-count: 1 !important;
+max-width: 100%;
+transition-duration: 0.01ms !important;
+scroll-behavior: auto !important;
+transition: none;
+}
+}
+
+body{
+    position: absolute;
+    width: 1440px;
+    height: 933px;
+}
+
+.Container{
+    margin: 64px;
+    position: relative;
+    width: 1312px;
+    height: 805px;
+    display: flex;
+    flex-direction: row;
+}
+
+.logo{
+    width: 101px;
+    height: 101px;
+}
+
+.info_container{
+    position: relative;
+    top: 157px;
+    right: 100px;
+    width: 653px;
+    height: 640px;
+
+}
+
+.info{
+    position: relative;
+    width: 653px;
+    height: 460px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    padding-left: 22px;
+    h1{
+        font-size: 64px;
+        line-height: 80px;
+    }
+    p{
+        font-size: 24px;
+        line-height: 30px;
+    }
+}
+
+.buttons{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 505px;
+    height: 66px;
+    gap: 32px;    
+    a:nth-child(1){
+        background-color: black;
+        color: white;
+    }
+    a:nth-child(2){
+        border: 2px solid black;
+
+    }
+}
+
+.buttons a{
+    white-space: nowrap;
+    width: 254px;
+    height: 66px;
+    font-size: 24px;
+    padding: 18px 48px 24px 59px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.info02{
+    position: relative;
+    top: 70px;
+}
+
+.info2{
+    position: relative;
+    width: 652px;
+    height: 118px;
+    padding: 24px;
+    display: flex;
+    flex-direction: row;
+    gap: 80px;
+}
+
+.info2_1{
+    width: 91px;
+    height: 70px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    img{
+        width: 24px;
+        height: 24px;
+    }
+    h4{
+        font-size: 16px;
+    }
+}
+
+.image{
+    position: relative;
+    top: 60px;
+    width: 635px;
+    height: 778px;
+}
