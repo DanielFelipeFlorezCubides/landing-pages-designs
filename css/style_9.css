@@ -1,0 +1,120 @@
+@import url(variables_9.css);
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 1440px;
+    height: 926px;
+    background-color: rgba(151, 163, 163, 1);
+}
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 1312px;
+    height: 926px;
+    margin: 0 64px 0 64px;
+}
+
+.info{
+    position: relative;
+    top: 64px;
+    left: 231px;
+    width: 756px;
+    height: 310px;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.info h1{
+    font-family: var(--fuente-bold);
+    font-size: 88px;
+    color: rgba(54, 56, 48, 1);
+}
+
+.info p{
+    font-family: var(--fuente-regular);
+    font-size: 24px;
+    color: rgba(54, 56, 48, 1);
+}
+
+.info a{
+    font-family: var(--fuente-regular);
+    font-size: 24px;
+    color: white;
+    padding: 20px 48px 20px 48px;
+    background-color: rgba(54, 56, 48, 1);
+    display: inline-block;
+    width: fit-content;
+    border-radius: 40px;
+}
+
+.img_right{
+    position: absolute;
+    z-index: 1;
+    width: 537px;
+    height: 512px;
+    top: 0;
+    right: 0;
+}
+
+.img_left{
+    position: absolute;
+    z-index: 1;
+    width: 462px;
+    height: 508px;
+    bottom: 0;
+    left: 0;
+}
+
+.info2_container{
+    width: 948px;
+    height: 272px;
+    position: absolute;
+    z-index: 2;
+    right: 0;
+    bottom: 63px;
+}
+
+.info2{
+    display: flex;
+    flex-direction: row;
+    padding: 40px 88px 40px 88px;
+    gap: 80px;
+    border-radius: 200px;
+    background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+}
+
+.info2_1{
+    display: flex;
+    flex-direction: column;
+    width: 204px;
+    height: 192px;
+    gap: 16px;
+}
+
+.info2_1 h3{
+    font-family: var(--fuente-bold);
+    font-size: 24px;
+    color: rgba(54, 56, 48, 1);
+}
+
+.info2_1 hr{
+    width: 38px;
+    border-top: 4px solid rgba(54, 56, 48, 1);
+}
+
+.info2_1 p{
+    font-family: var(--fuente-regular);
+    font-size: 16px;
+    color: rgba(54, 56, 48, 1);
+}
