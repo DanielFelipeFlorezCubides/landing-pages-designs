@@ -5,3 +5,44 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+.container{
+    width: 1312px;
+    height: 799px;
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+    margin: 64px;
+}
+
+.container h1{
+    font-family: var(--fuente-heavy);
+    font-size: 72px;
+}
+
+.cards_container{
+    width: 1312px;
+    height: 599px;
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}
+
+.info{
+    width: 316px;
+    height: 559px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.info h2{
+    font-family: var(--fuente-heavy);
+    font-size: 40px;
+    color: rgba(37, 37, 37, 0.35);
+}
+
+.info p{
+    font-family: var(--fuente-roman);
+    font-size: 24px;
+}
