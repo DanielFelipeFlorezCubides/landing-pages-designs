@@ -1,0 +1,82 @@
+@import url(variables_12.css);
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main{
+    width: 1440px;
+    height: 1024px;
+}
+
+.container{
+    width: 637px;
+    height: 477px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    position: relative;
+    top: 64px;
+    left: 64px;
+}
+
+.container1{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.container h1{
+    font-family: var(--fuente-bold);
+    font-size: 72px;
+    line-height: 88px;
+}
+
+.container p{
+    font-family: var(--fuente-roman);
+    font-size: 24px;
+}
+
+.container a{
+    font-family: var(--fuente-regular);
+    font-size: 24px;
+    padding: 24px 48px 24px 48px;
+    background-color: rgba(37, 37, 37, 1);
+    border-radius: 35px;
+    display: inline-block;
+    width: fit-content;
+    color: white;
+}
+
+.image_1{
+    position: absolute;
+    top: 67px;
+    right: 61px;
+    z-index: 1;
+}
+
+.image_2{
+    position: absolute;
+    top: 91px;
+    right: 88px;
+    z-index: 2;
+}
+
+.card{
+    position: absolute;
+    top: 838px;
+    right: 64px;
+    display: flex;
+    flex-direction: row;
+    width: 668px;
+    height: 122px;
+    gap: 24px;
+    padding: 16px 24px 16px 24px;
+}
+
+.card p{
+    font-family: var(--fuente-roman);
+    font-size: 22px;
+}

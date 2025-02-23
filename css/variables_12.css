@@ -1,0 +1,21 @@
+:root{
+    --color-1: white;
+    --fuente-bold: "avenir-bold";
+    --fuente-roman: "avenir-roman";
+    --fuente-regular: "poppins-regular";
+}
+
+@font-face {
+    font-family: "avenir-bold";
+    src: url(../storage_12/font/AvenirLTStd-Heavy.otf) format(truetype);
+}
+
+@font-face {
+    font-family: "avenir-roman";
+    src: url(../storage_12/font/AvenirLTStd-Roman.otf) format(truetype);
+}
+
+@font-face {
+    font-family: "poppins-regular";
+    src: url(../storage_12/font/Poppins-Regular.ttf) format(truetype);
+}
